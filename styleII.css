@@ -1,0 +1,432 @@
+*{
+    font-family: 'Inter Tight', sans-serif;
+    color:white;
+    margin: 0%;
+    padding: 0%;
+}
+
+.parte1{
+    background: #4ebcff;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+   
+}
+header{
+    font-size: 28px;
+}
+
+.parte2 a{ 
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.parte2 a:hover{ 
+    border-color: #FbFBFB;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.parte2{
+      
+    margin-top: 0px;
+    background: #2972b6;
+    width: 100%;
+    height:40px;
+    text-align: center;
+}
+.parte2 li{
+    display:inline;
+    padding-left:12px;
+    padding-right:12px;
+   
+}
+
+footer{
+    padding: 15px;
+    font-size: 22px;
+    color: white;
+    background: #4ebcff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    gap:55px;
+}
+
+footer a{ 
+    text-align: left;
+    font-size: 12px;}
+.segundo li{
+   
+    padding-left:3px;
+    padding-right:3px;
+}
+
+.tercero li{
+    padding-left:3px;
+    padding-right:3px;
+}
+ul{list-style: none;}
+
+.cuarto li{
+   
+    padding-left:3px;
+    padding-right:3px;
+}
+.titulo{
+    font-size: 15px;
+    font-weight: 600;
+}
+footer div{
+    width: 11%;
+
+}
+.contenedores{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor1{
+    background-color: #FbFBFB;
+    width: 65%;
+    padding:20px;
+    height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+
+.contenedor1 span{
+    text-align: justify;
+    font-size: 14px;
+    width: 55%;
+    height: auto;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color:black;
+}
+
+.contenedor1 div{
+
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+h6{ 
+    color:black;
+    font-size: 19px;
+}
+.contenedor1 div img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.quinto{
+    width: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.quinto span{
+    font-size: 11px;
+    display:flex;
+}
+button{
+    background: #945cb4;
+    width: 21%;
+    border-radius: 3px;
+    border: #945cb4;
+    height: 24px;
+}
+.quinto input{
+    width: 76%;
+    color: black;
+    height: 20px;
+}
+.quinto .correo{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2px;
+    gap:7px 0px;
+}
+.svg{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+}
+
+
+
+
+
+.contenedor1 .categoria{
+    margin-bottom: 45px;
+    width: 85%;
+}
+.contenedores .contenedor1 .categoria {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+}
+
+.contenedores .contenedor1 .categoria .minicontainer .img {
+    background-color: aqua;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+}
+
+.contenedores .contenedor1 .categoria .mainspan{
+    width: 100%;
+    height: 20px;
+    display:block;
+    align-content: left;
+    padding: 10px;
+    font-weight: 600;
+;
+}
+.contenedores .contenedor1 .categoria span{
+
+    width: 100%;
+    height: 20px;
+}
+.contenedores .contenedor1 .categoria .minicontainer{
+    width: 13%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedores .contenedor1 .categoria .minicontainer .img:hover {
+    background-color: aqua;
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    transition: 0.3s ease;
+
+}
+.contenedores .contenedor1 .categoria .minicontainer:hover{
+    width: 15%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+
+}
+
+
+
+.contenedor1 .VentaFlash{
+    margin-bottom: 45px;
+    width: 85%;
+}
+.contenedores .contenedor1 .VentaFlash {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+}
+
+.contenedores .contenedor1 .VentaFlash .minicontainer .img {
+    background-color: aqua;
+    margin-top: 15px;
+    width: 125px;
+    height: 125px;
+}
+
+.contenedores .contenedor1 .VentaFlash .mainspan{
+    width: 100%;
+    height: 20px;
+    display:block;
+    align-content: left;
+    padding: 10px;
+    font-weight: 600;
+;
+}
+
+.contenedores .contenedor1 .VentaFlash .minicontainer{
+    width: 19%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.contenedores .contenedor1 .VentaFlash .minicontainer .descuento{
+    background: #001D4F;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 7.5%;
+    left: 7.9%;
+    padding: 1%;
+}
+
+
+.contenedores .contenedor1 .VentaFlash .minicontainer .img:hover {
+
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    transition: 0.3s ease;
+}
+
+
+
+
+
+
+
+.contenedor1 .estilos{
+    margin-bottom: 45px;
+    width: 85%;
+}
+.contenedores .contenedor1 .estilos {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+}
+
+.contenedores .contenedor1 .estilos .minicontainer .img {
+    background-color: aqua;
+    margin-top: 15px;
+    width: 290px;
+    height: 225px;
+}
+
+.contenedores .contenedor1 .estilos .mainspan{
+    width: 100%;
+    height: 20px;
+    display:block;
+    align-content: left;
+    padding: 10px;
+    font-weight: 600;
+;
+}
+
+.contenedores .contenedor1 .estilos .minicontainer{
+    width: 30%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.contenedor1 .populares{
+    margin-bottom: 45px;
+    width: 85%;
+}
+.contenedores .contenedor1 .populares {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+}
+
+.contenedores .contenedor1 .populares .minicontainer .img {
+    background-color: aqua;
+    margin-top: 15px;
+    width: 140px;
+    height: 190px;
+}
+
+.contenedores .contenedor1 .populares .mainspan{
+    width: 100%;
+    height: 20px;
+    display:block;
+    align-content: left;
+    padding: 10px;
+    font-weight: 600;
+;
+}
+
+.contenedores .contenedor1 .populares .minicontainer{
+    width: 19%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.contenedores .contenedor1 .populares .minicontainer .img:hover {
+
+    position: absolute;
+    width: 150px;
+    height: 210px;
+    transition: 0.3s ease;
+}
+
+
+
+
+
+
+
+
+.contenedor1 .banner{
+    margin-bottom: 45px;
+    width: 85%;
+}
+.contenedores .contenedor1 .banner {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+}
+
+.contenedores .contenedor1 .banner .minicontainer .img {
+    background-color: aqua;
+    margin-top: 15px;
+    width: 100%;
+    height: 350px;
+}
+
+.contenedores .contenedor1 .banner .mainspan{
+    width: 100%;
+    height: 20px;
+    display:block;
+    align-content: left;
+    padding: 10px;
+    font-weight: 600;
+;
+}
+
+.contenedores .contenedor1 .banner .minicontainer{
+    width: 96%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
